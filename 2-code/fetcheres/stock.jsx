@@ -1,7 +1,13 @@
 import {configureStore} from '@reduxjs/toolkit'
-import utilisaturReducer from './user.jsx'
+import souSotck1Reducer from './user.jsx'
 export const  stock=configureStore({
     reducer:{
-       Autreuser:utilisaturReducer,  
+       Autreuser:souSotck1Reducer,  
     }
 })
+// App
+{ /* <Provider store={stock}>
+         <NvLohin/>
+        <NvProfile/>
+        <Information/>
+      </Provider> */}

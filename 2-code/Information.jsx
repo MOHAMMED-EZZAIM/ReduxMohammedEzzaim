@@ -3,7 +3,7 @@ import {useSelector} from 'react-redux'
 function Information() {
     const data=useSelector((state)=>state.Autreuser.value);
   return (
-    <div>
+    <div className='Login2'>
       <ul>
         <li>{data.Nom}</li>
         <li>{data.Prenom}</li>
@@ -12,5 +12,4 @@ function Information() {
     </div>
   )
 }
-
 export default Information

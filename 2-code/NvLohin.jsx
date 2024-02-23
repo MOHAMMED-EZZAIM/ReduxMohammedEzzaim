@@ -17,7 +17,7 @@ const handlInput3=(event)=>{
 }
   return (
    
-    <div>
+    <div className='Login'>
         <input type="text" value={inputVlue1} onChange={handlInput1}/><br />
         <input type="text" value={inputVlue2} onChange={handlInput2}/><br />
         <input type="text" value={inputVlue3} onChange={handlInput3}/><br />
