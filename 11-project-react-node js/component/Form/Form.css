@@ -1,0 +1,28 @@
+form{
+    flex: 1;
+}
+form div{
+    margin-bottom: 10px;
+}
+form input{
+    display: block;
+    width: 100%;
+    border: 1px slid gray;
+    border-radius: 3px;
+    height: 40px;
+}
+form  input[type=submit]{
+    color: white;
+    background-color: brown;
+    cursor: pointer;
+}
+form  input[type=submit]:hover{
+    color: white;
+    background-color: rgb(169, 101, 101);
+    cursor: pointer;
+}
+
+form  input[type=submit]:active{
+    color: white;
+    background-color:brown
+}

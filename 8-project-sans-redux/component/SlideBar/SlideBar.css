@@ -1,0 +1,31 @@
+.sliderbar{
+    width: 25%;
+    background-color: #f50707;
+    height: calc(100vh-6px);
+    display: inline-block;
+}
+.sliderbar ul{
+list-style: none;
+}
+a{
+display: block;
+background-color: #3333;
+color: #18cfe7;
+padding: 7px;
+font-size: 18px;
+text-decoration: none;
+font-size: 1rem;
+font-style: oblique;
+font-weight: bold;
+
+}
+
+a:hover{
+    background-color: black;
+    font-size: 1.50rem;
+}
+a:active{
+    background-color:  #18cfe7;
+    color: black;
+   
+}
